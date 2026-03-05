@@ -1,3 +1,37 @@
+# MERN Stack Login Application
+
+A simple, secure Login and Registration system built with **React**, **Node.js**, **Express**, and **MongoDB**. This project demonstrates functional components, JWT authentication, and protected routing.
+
+
+
+[Image of MERN stack architecture diagram]
+
+
+## 🚀 Features
+* **User Registration:** Securely hash passwords using `bcryptjs` before saving to MongoDB.
+* **JWT Authentication:** Issues a JSON Web Token upon successful login.
+* **Admin Access:** Special logic to navigate to the Welcome page if credentials are `admin` / `admin`.
+* **Persistence:** Uses `localStorage` to remember the username for subsequent visits.
+* **Protected Routes:** Redirects unauthenticated users away from the Welcome page.
+
+---
+
+## 🛠️ Tech Stack
+* **Frontend:** React (Hooks, Router, Axios)
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB (via Mongoose)
+* **Security:** JWT (JSON Web Tokens) & Bcrypt
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/your-username/mern-login-app.git](https://github.com/your-username/mern-login-app.git)
+cd mern-login-app
+
+
 2. Backend Setup
 Navigate to the backend folder: cd backend
 
